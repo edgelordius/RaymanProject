@@ -26,6 +26,7 @@ public class PlayerMovement : MonoBehaviour
     float fistHasReturnedDistance = 2.0f;
 
     Animator animBody;
+    Animator animHead;
     Animator animLShoe;
     Animator animRShoe;
     Animator animLHand;
@@ -42,7 +43,8 @@ public class PlayerMovement : MonoBehaviour
         foreach(GameObject f in fists) {
             f.SetActive(false);
         }
-        animBody = GameObject.Find("Player/SK_Rayman_Body").GetComponent<Animator>();
+        animBody = GameObject.Find("Player/SK_Rayman_Body1").GetComponent<Animator>();
+        animHead = GameObject.Find("Player/Main Camera/SK_Rayman_Head").GetComponent<Animator>();
         animLShoe = GameObject.Find("Player/SK_Rayman_LShoe").GetComponent<Animator>();
         animRShoe = GameObject.Find("Player/SK_Rayman_RShoe").GetComponent<Animator>();
         animLHand = GameObject.Find("Player/SK_Rayman_LFist").GetComponent<Animator>();
@@ -93,6 +95,7 @@ public class PlayerMovement : MonoBehaviour
                 Debug.Log("hi");
                 rb.AddForce(Vector3.up * jumpHeight, ForceMode.Impulse);
                 animBody.SetInteger("Jumps", 1);
+                animHead.SetInteger("Jumps", 1);
                 animLHand.SetInteger("Jumps", 1);
                 animLShoe.SetInteger("Jumps", 1);
                 animRHand.SetInteger("Jumps", 1);
@@ -103,6 +106,7 @@ public class PlayerMovement : MonoBehaviour
             if(Input.GetKeyDown(KeyCode.JoystickButton0)){
                 jumps = 2;
                 animBody.SetInteger("Jumps", 2);
+                animHead.SetInteger("Jumps", 2);
                 animLHand.SetInteger("Jumps", 2);
                 animLShoe.SetInteger("Jumps", 2);
                 animRHand.SetInteger("Jumps", 2);
@@ -150,6 +154,7 @@ public class PlayerMovement : MonoBehaviour
             rb.useGravity=true;
             Debug.Log("Gravity");
             animBody.SetInteger("Jumps", 0);
+            animHead.SetInteger("Jumps", 0);
             animLHand.SetInteger("Jumps", 0);
             animLShoe.SetInteger("Jumps", 0);
             animRHand.SetInteger("Jumps", 0);

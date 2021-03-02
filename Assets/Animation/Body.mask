@@ -8,4 +8,214 @@ AvatarMask:
   m_PrefabAsset: {fileID: 0}
   m_Name: Body
   m_Mask: 00000000010000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
-  m_Elements: []
+  m_Elements:
+  - m_Path: 
+    m_Weight: 1
+  - m_Path: Armature
+    m_Weight: 1
+  - m_Path: Armature/L.Foot
+    m_Weight: 1
+  - m_Path: Armature/L.Foot/L.Toes
+    m_Weight: 1
+  - m_Path: Armature/L.Foot/L.Toes/L.Toes_end
+    m_Weight: 1
+  - m_Path: Armature/R.Foot
+    m_Weight: 1
+  - m_Path: Armature/R.Foot/R.Toes
+    m_Weight: 1
+  - m_Path: Armature/R.Foot/R.Toes/R.Toes_end
+    m_Weight: 1
+  - m_Path: Armature/Root
+    m_Weight: 1
+  - m_Path: Armature/Root/L.FootIK
+    m_Weight: 1
+  - m_Path: Armature/Root/L.FootIK/L.FootIK_end
+    m_Weight: 1
+  - m_Path: Armature/Root/L.HandIK
+    m_Weight: 1
+  - m_Path: Armature/Root/L.HandIK/L.HandIK_end
+    m_Weight: 1
+  - m_Path: Armature/Root/PelvisControl
+    m_Weight: 1
+  - m_Path: Armature/Root/PelvisControl/Pelvis
+    m_Weight: 1
+  - m_Path: Armature/Root/PelvisControl/Pelvis/L.Thigh
+    m_Weight: 1
+  - m_Path: Armature/Root/PelvisControl/Pelvis/L.Thigh/L.Shin
+    m_Weight: 1
+  - m_Path: Armature/Root/PelvisControl/Pelvis/L.Thigh/L.Shin/L.Shin_end
+    m_Weight: 1
+  - m_Path: Armature/Root/PelvisControl/Pelvis/R.Thigh
+    m_Weight: 1
+  - m_Path: Armature/Root/PelvisControl/Pelvis/R.Thigh/R.Shin
+    m_Weight: 1
+  - m_Path: Armature/Root/PelvisControl/Pelvis/R.Thigh/R.Shin/R.Shin_end
+    m_Weight: 1
+  - m_Path: Armature/Root/PelvisControl/Pelvis/Spine
+    m_Weight: 1
+  - m_Path: Armature/Root/PelvisControl/Pelvis/Spine/Chest
+    m_Weight: 1
+  - m_Path: Armature/Root/PelvisControl/Pelvis/Spine/Chest/L.Drawstring1
+    m_Weight: 1
+  - m_Path: Armature/Root/PelvisControl/Pelvis/Spine/Chest/L.Drawstring1/L.Drawstring2
+    m_Weight: 1
+  - m_Path: Armature/Root/PelvisControl/Pelvis/Spine/Chest/L.Drawstring1/L.Drawstring2/L.Drawstring3
+    m_Weight: 1
+  - m_Path: Armature/Root/PelvisControl/Pelvis/Spine/Chest/L.Drawstring1/L.Drawstring2/L.Drawstring3/L.Drawstring4
+    m_Weight: 1
+  - m_Path: Armature/Root/PelvisControl/Pelvis/Spine/Chest/L.Drawstring1/L.Drawstring2/L.Drawstring3/L.Drawstring4/L.Drawstring5
+    m_Weight: 1
+  - m_Path: Armature/Root/PelvisControl/Pelvis/Spine/Chest/L.Drawstring1/L.Drawstring2/L.Drawstring3/L.Drawstring4/L.Drawstring5/L.Drawstring6
+    m_Weight: 1
+  - m_Path: Armature/Root/PelvisControl/Pelvis/Spine/Chest/L.Drawstring1/L.Drawstring2/L.Drawstring3/L.Drawstring4/L.Drawstring5/L.Drawstring6/L.Drawstring7
+    m_Weight: 1
+  - m_Path: Armature/Root/PelvisControl/Pelvis/Spine/Chest/L.Drawstring1/L.Drawstring2/L.Drawstring3/L.Drawstring4/L.Drawstring5/L.Drawstring6/L.Drawstring7/L.Drawstring7_end
+    m_Weight: 1
+  - m_Path: Armature/Root/PelvisControl/Pelvis/Spine/Chest/L.Shoulder
+    m_Weight: 1
+  - m_Path: Armature/Root/PelvisControl/Pelvis/Spine/Chest/L.Shoulder/L.Bicep
+    m_Weight: 1
+  - m_Path: Armature/Root/PelvisControl/Pelvis/Spine/Chest/L.Shoulder/L.Bicep/L.Forearm
+    m_Weight: 1
+  - m_Path: Armature/Root/PelvisControl/Pelvis/Spine/Chest/L.Shoulder/L.Bicep/L.Forearm/L.Hand
+    m_Weight: 1
+  - m_Path: Armature/Root/PelvisControl/Pelvis/Spine/Chest/L.Shoulder/L.Bicep/L.Forearm/L.Hand/L.Index1
+    m_Weight: 1
+  - m_Path: Armature/Root/PelvisControl/Pelvis/Spine/Chest/L.Shoulder/L.Bicep/L.Forearm/L.Hand/L.Index1/L.Index2
+    m_Weight: 1
+  - m_Path: Armature/Root/PelvisControl/Pelvis/Spine/Chest/L.Shoulder/L.Bicep/L.Forearm/L.Hand/L.Index1/L.Index2/L.Index3
+    m_Weight: 1
+  - m_Path: Armature/Root/PelvisControl/Pelvis/Spine/Chest/L.Shoulder/L.Bicep/L.Forearm/L.Hand/L.Index1/L.Index2/L.Index3/L.Index3_end
+    m_Weight: 1
+  - m_Path: Armature/Root/PelvisControl/Pelvis/Spine/Chest/L.Shoulder/L.Bicep/L.Forearm/L.Hand/L.Middle1
+    m_Weight: 1
+  - m_Path: Armature/Root/PelvisControl/Pelvis/Spine/Chest/L.Shoulder/L.Bicep/L.Forearm/L.Hand/L.Middle1/L.Middle2
+    m_Weight: 1
+  - m_Path: Armature/Root/PelvisControl/Pelvis/Spine/Chest/L.Shoulder/L.Bicep/L.Forearm/L.Hand/L.Middle1/L.Middle2/L.Middle3
+    m_Weight: 1
+  - m_Path: Armature/Root/PelvisControl/Pelvis/Spine/Chest/L.Shoulder/L.Bicep/L.Forearm/L.Hand/L.Middle1/L.Middle2/L.Middle3/L.Middle3_end
+    m_Weight: 1
+  - m_Path: Armature/Root/PelvisControl/Pelvis/Spine/Chest/L.Shoulder/L.Bicep/L.Forearm/L.Hand/L.Pinky1
+    m_Weight: 1
+  - m_Path: Armature/Root/PelvisControl/Pelvis/Spine/Chest/L.Shoulder/L.Bicep/L.Forearm/L.Hand/L.Pinky1/L.Pinky2
+    m_Weight: 1
+  - m_Path: Armature/Root/PelvisControl/Pelvis/Spine/Chest/L.Shoulder/L.Bicep/L.Forearm/L.Hand/L.Pinky1/L.Pinky2/L.Pinky3
+    m_Weight: 1
+  - m_Path: Armature/Root/PelvisControl/Pelvis/Spine/Chest/L.Shoulder/L.Bicep/L.Forearm/L.Hand/L.Pinky1/L.Pinky2/L.Pinky3/L.Pinky3_end
+    m_Weight: 1
+  - m_Path: Armature/Root/PelvisControl/Pelvis/Spine/Chest/L.Shoulder/L.Bicep/L.Forearm/L.Hand/L.Thumb1
+    m_Weight: 1
+  - m_Path: Armature/Root/PelvisControl/Pelvis/Spine/Chest/L.Shoulder/L.Bicep/L.Forearm/L.Hand/L.Thumb1/L.Thumb2
+    m_Weight: 1
+  - m_Path: Armature/Root/PelvisControl/Pelvis/Spine/Chest/L.Shoulder/L.Bicep/L.Forearm/L.Hand/L.Thumb1/L.Thumb2/L.Thumb3
+    m_Weight: 1
+  - m_Path: Armature/Root/PelvisControl/Pelvis/Spine/Chest/L.Shoulder/L.Bicep/L.Forearm/L.Hand/L.Thumb1/L.Thumb2/L.Thumb3/L.Thumb3_end
+    m_Weight: 1
+  - m_Path: Armature/Root/PelvisControl/Pelvis/Spine/Chest/Neck1
+    m_Weight: 1
+  - m_Path: Armature/Root/PelvisControl/Pelvis/Spine/Chest/Neck1/Neck2
+    m_Weight: 1
+  - m_Path: Armature/Root/PelvisControl/Pelvis/Spine/Chest/Neck1/Neck2/Head
+    m_Weight: 1
+  - m_Path: Armature/Root/PelvisControl/Pelvis/Spine/Chest/Neck1/Neck2/Head/Bone
+    m_Weight: 1
+  - m_Path: Armature/Root/PelvisControl/Pelvis/Spine/Chest/Neck1/Neck2/Head/Bone/L.Eye
+    m_Weight: 1
+  - m_Path: Armature/Root/PelvisControl/Pelvis/Spine/Chest/Neck1/Neck2/Head/Bone/L.Eye/L.Eye_end
+    m_Weight: 1
+  - m_Path: Armature/Root/PelvisControl/Pelvis/Spine/Chest/Neck1/Neck2/Head/Bone/R.Eye
+    m_Weight: 1
+  - m_Path: Armature/Root/PelvisControl/Pelvis/Spine/Chest/Neck1/Neck2/Head/Bone/R.Eye/R.Eye_end
+    m_Weight: 1
+  - m_Path: Armature/Root/PelvisControl/Pelvis/Spine/Chest/Neck1/Neck2/Head/Jaw
+    m_Weight: 1
+  - m_Path: Armature/Root/PelvisControl/Pelvis/Spine/Chest/Neck1/Neck2/Head/Jaw/Jaw_end
+    m_Weight: 1
+  - m_Path: Armature/Root/PelvisControl/Pelvis/Spine/Chest/Neck1/Neck2/Head/L.Hair1
+    m_Weight: 1
+  - m_Path: Armature/Root/PelvisControl/Pelvis/Spine/Chest/Neck1/Neck2/Head/L.Hair1/L.Hair2
+    m_Weight: 1
+  - m_Path: Armature/Root/PelvisControl/Pelvis/Spine/Chest/Neck1/Neck2/Head/L.Hair1/L.Hair2/L.Hair3
+    m_Weight: 1
+  - m_Path: Armature/Root/PelvisControl/Pelvis/Spine/Chest/Neck1/Neck2/Head/L.Hair1/L.Hair2/L.Hair3/L.Hair4
+    m_Weight: 1
+  - m_Path: Armature/Root/PelvisControl/Pelvis/Spine/Chest/Neck1/Neck2/Head/L.Hair1/L.Hair2/L.Hair3/L.Hair4/L.Hair4_end
+    m_Weight: 1
+  - m_Path: Armature/Root/PelvisControl/Pelvis/Spine/Chest/Neck1/Neck2/Head/R.Hair1
+    m_Weight: 1
+  - m_Path: Armature/Root/PelvisControl/Pelvis/Spine/Chest/Neck1/Neck2/Head/R.Hair1/R.Hair2
+    m_Weight: 1
+  - m_Path: Armature/Root/PelvisControl/Pelvis/Spine/Chest/Neck1/Neck2/Head/R.Hair1/R.Hair2/R.Hair3
+    m_Weight: 1
+  - m_Path: Armature/Root/PelvisControl/Pelvis/Spine/Chest/Neck1/Neck2/Head/R.Hair1/R.Hair2/R.Hair3/R.Hair4
+    m_Weight: 1
+  - m_Path: Armature/Root/PelvisControl/Pelvis/Spine/Chest/Neck1/Neck2/Head/R.Hair1/R.Hair2/R.Hair3/R.Hair4/R.Hair4_end
+    m_Weight: 1
+  - m_Path: Armature/Root/PelvisControl/Pelvis/Spine/Chest/R.Drawstring1
+    m_Weight: 1
+  - m_Path: Armature/Root/PelvisControl/Pelvis/Spine/Chest/R.Drawstring1/R.Drawstring2
+    m_Weight: 1
+  - m_Path: Armature/Root/PelvisControl/Pelvis/Spine/Chest/R.Drawstring1/R.Drawstring2/R.Drawstring3
+    m_Weight: 1
+  - m_Path: Armature/Root/PelvisControl/Pelvis/Spine/Chest/R.Drawstring1/R.Drawstring2/R.Drawstring3/R.Drawstring4
+    m_Weight: 1
+  - m_Path: Armature/Root/PelvisControl/Pelvis/Spine/Chest/R.Drawstring1/R.Drawstring2/R.Drawstring3/R.Drawstring4/R.Drawstring5
+    m_Weight: 1
+  - m_Path: Armature/Root/PelvisControl/Pelvis/Spine/Chest/R.Drawstring1/R.Drawstring2/R.Drawstring3/R.Drawstring4/R.Drawstring5/R.Drawstring6
+    m_Weight: 1
+  - m_Path: Armature/Root/PelvisControl/Pelvis/Spine/Chest/R.Drawstring1/R.Drawstring2/R.Drawstring3/R.Drawstring4/R.Drawstring5/R.Drawstring6/R.Drawstring7
+    m_Weight: 1
+  - m_Path: Armature/Root/PelvisControl/Pelvis/Spine/Chest/R.Drawstring1/R.Drawstring2/R.Drawstring3/R.Drawstring4/R.Drawstring5/R.Drawstring6/R.Drawstring7/R.Drawstring7_end
+    m_Weight: 1
+  - m_Path: Armature/Root/PelvisControl/Pelvis/Spine/Chest/R.Shoulder
+    m_Weight: 1
+  - m_Path: Armature/Root/PelvisControl/Pelvis/Spine/Chest/R.Shoulder/R.Bicep
+    m_Weight: 1
+  - m_Path: Armature/Root/PelvisControl/Pelvis/Spine/Chest/R.Shoulder/R.Bicep/R.Forearm
+    m_Weight: 1
+  - m_Path: Armature/Root/PelvisControl/Pelvis/Spine/Chest/R.Shoulder/R.Bicep/R.Forearm/R.Hand
+    m_Weight: 1
+  - m_Path: Armature/Root/PelvisControl/Pelvis/Spine/Chest/R.Shoulder/R.Bicep/R.Forearm/R.Hand/R.Index1
+    m_Weight: 1
+  - m_Path: Armature/Root/PelvisControl/Pelvis/Spine/Chest/R.Shoulder/R.Bicep/R.Forearm/R.Hand/R.Index1/R.Index2
+    m_Weight: 1
+  - m_Path: Armature/Root/PelvisControl/Pelvis/Spine/Chest/R.Shoulder/R.Bicep/R.Forearm/R.Hand/R.Index1/R.Index2/R.Index3
+    m_Weight: 1
+  - m_Path: Armature/Root/PelvisControl/Pelvis/Spine/Chest/R.Shoulder/R.Bicep/R.Forearm/R.Hand/R.Index1/R.Index2/R.Index3/R.Index3_end
+    m_Weight: 1
+  - m_Path: Armature/Root/PelvisControl/Pelvis/Spine/Chest/R.Shoulder/R.Bicep/R.Forearm/R.Hand/R.Middle1
+    m_Weight: 1
+  - m_Path: Armature/Root/PelvisControl/Pelvis/Spine/Chest/R.Shoulder/R.Bicep/R.Forearm/R.Hand/R.Middle1/R.Middle2
+    m_Weight: 1
+  - m_Path: Armature/Root/PelvisControl/Pelvis/Spine/Chest/R.Shoulder/R.Bicep/R.Forearm/R.Hand/R.Middle1/R.Middle2/R.Middle3
+    m_Weight: 1
+  - m_Path: Armature/Root/PelvisControl/Pelvis/Spine/Chest/R.Shoulder/R.Bicep/R.Forearm/R.Hand/R.Middle1/R.Middle2/R.Middle3/R.Middle3_end
+    m_Weight: 1
+  - m_Path: Armature/Root/PelvisControl/Pelvis/Spine/Chest/R.Shoulder/R.Bicep/R.Forearm/R.Hand/R.Pinky1
+    m_Weight: 1
+  - m_Path: Armature/Root/PelvisControl/Pelvis/Spine/Chest/R.Shoulder/R.Bicep/R.Forearm/R.Hand/R.Pinky1/R.Pinky2
+    m_Weight: 1
+  - m_Path: Armature/Root/PelvisControl/Pelvis/Spine/Chest/R.Shoulder/R.Bicep/R.Forearm/R.Hand/R.Pinky1/R.Pinky2/R.Pinky3
+    m_Weight: 1
+  - m_Path: Armature/Root/PelvisControl/Pelvis/Spine/Chest/R.Shoulder/R.Bicep/R.Forearm/R.Hand/R.Pinky1/R.Pinky2/R.Pinky3/R.Pinky3_end
+    m_Weight: 1
+  - m_Path: Armature/Root/PelvisControl/Pelvis/Spine/Chest/R.Shoulder/R.Bicep/R.Forearm/R.Hand/R.Thumb1
+    m_Weight: 1
+  - m_Path: Armature/Root/PelvisControl/Pelvis/Spine/Chest/R.Shoulder/R.Bicep/R.Forearm/R.Hand/R.Thumb1/R.Thumb2
+    m_Weight: 1
+  - m_Path: Armature/Root/PelvisControl/Pelvis/Spine/Chest/R.Shoulder/R.Bicep/R.Forearm/R.Hand/R.Thumb1/R.Thumb2/R.Thumb3
+    m_Weight: 1
+  - m_Path: Armature/Root/PelvisControl/Pelvis/Spine/Chest/R.Shoulder/R.Bicep/R.Forearm/R.Hand/R.Thumb1/R.Thumb2/R.Thumb3/R.Thumb3_end
+    m_Weight: 1
+  - m_Path: Armature/Root/R.FootIK
+    m_Weight: 1
+  - m_Path: Armature/Root/R.FootIK/R.FootIK_end
+    m_Weight: 1
+  - m_Path: Armature/Root/R.HandIK
+    m_Weight: 1
+  - m_Path: Armature/Root/R.HandIK/R.HandIK_end
+    m_Weight: 1
+  - m_Path: R_Body
+    m_Weight: 1
+  - m_Path: R_Drawstrings
+    m_Weight: 1

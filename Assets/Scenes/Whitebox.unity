@@ -572,6 +572,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_BridgePlatform (6)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 57f93303c0456094a9ce6a847386e077, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 57f93303c0456094a9ce6a847386e077, type: 3}
 --- !u!1001 &24771414
@@ -1520,6 +1524,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_BridgePlatform (7)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 57f93303c0456094a9ce6a847386e077, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 57f93303c0456094a9ce6a847386e077, type: 3}
 --- !u!1 &129351915
@@ -1680,6 +1688,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 57f93303c0456094a9ce6a847386e077, type: 3}
       propertyPath: m_Name
       value: SM_BridgePlatform (7)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 57f93303c0456094a9ce6a847386e077, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 57f93303c0456094a9ce6a847386e077, type: 3}
@@ -2265,6 +2277,10 @@ PrefabInstance:
       propertyPath: life3
       value: 
       objectReference: {fileID: 650463703}
+    - target: {fileID: 3344216233460004636, guid: 769b0c672e498df44b8ea12441b72304, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -1.85
+      objectReference: {fileID: 0}
     - target: {fileID: 4193303506704661297, guid: 769b0c672e498df44b8ea12441b72304, type: 3}
       propertyPath: m_UpdateMode
       value: 1
@@ -2376,6 +2392,10 @@ PrefabInstance:
     - target: {fileID: 7735793257053176408, guid: 769b0c672e498df44b8ea12441b72304, type: 3}
       propertyPath: m_Layer
       value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 7735793257053176408, guid: 769b0c672e498df44b8ea12441b72304, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7735793257053176410, guid: 769b0c672e498df44b8ea12441b72304, type: 3}
       propertyPath: m_RenderingPath
@@ -2844,6 +2864,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 57f93303c0456094a9ce6a847386e077, type: 3}
       propertyPath: m_Name
       value: SM_BridgePlatform (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 57f93303c0456094a9ce6a847386e077, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 57f93303c0456094a9ce6a847386e077, type: 3}
@@ -4065,6 +4089,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_BridgePlatform (6)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 57f93303c0456094a9ce6a847386e077, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 57f93303c0456094a9ce6a847386e077, type: 3}
 --- !u!1001 &332303477
@@ -4133,6 +4161,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 57f93303c0456094a9ce6a847386e077, type: 3}
       propertyPath: m_Name
       value: SM_BridgePlatform
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 57f93303c0456094a9ce6a847386e077, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 57f93303c0456094a9ce6a847386e077, type: 3}
@@ -4232,7 +4264,8 @@ PrefabInstance:
       propertyPath: m_Name
       value: MushroomPrefab
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 6092838541670840494, guid: e235eaa094293cb4894336643638a007, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: e235eaa094293cb4894336643638a007, type: 3}
 --- !u!1001 &349639444
 PrefabInstance:
@@ -4475,8 +4508,29 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_BridgePlatform (7)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 57f93303c0456094a9ce6a847386e077, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 57f93303c0456094a9ce6a847386e077, type: 3}
+--- !u!1 &356474765 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3658836613060697373, guid: 4262d42a7f79e004d8c111cf8418a0ea, type: 3}
+  m_PrefabInstance: {fileID: 1804171979}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &356474770
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 356474765}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f8f2375ea84212349b9417cdfbdd1060, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &357299614
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4750,6 +4804,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 57f93303c0456094a9ce6a847386e077, type: 3}
       propertyPath: m_Name
       value: SM_BridgePlatform (11)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 57f93303c0456094a9ce6a847386e077, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 57f93303c0456094a9ce6a847386e077, type: 3}
@@ -5418,6 +5476,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_BridgePlatform (6)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 57f93303c0456094a9ce6a847386e077, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 57f93303c0456094a9ce6a847386e077, type: 3}
 --- !u!4 &430143723 stripped
@@ -5986,6 +6048,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_BridgePlatform (6)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 57f93303c0456094a9ce6a847386e077, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 57f93303c0456094a9ce6a847386e077, type: 3}
 --- !u!1001 &516209343
@@ -6204,6 +6270,24 @@ MonoBehaviour:
   m_Bidirectional: 1
   m_AutoUpdatePosition: 0
   m_Area: 0
+--- !u!1 &543736781 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 57f93303c0456094a9ce6a847386e077, type: 3}
+  m_PrefabInstance: {fileID: 791126282}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &543736782
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 543736781}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.17604864, y: 0.07215857, z: 0.007612653}
+  m_Center: {x: -0.044906665, y: 0.000000047874064, z: 0.02982469}
 --- !u!1 &544268430
 GameObject:
   m_ObjectHideFlags: 0
@@ -6719,6 +6803,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_BridgePlatform (8)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 57f93303c0456094a9ce6a847386e077, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 57f93303c0456094a9ce6a847386e077, type: 3}
 --- !u!1 &614092522
@@ -6911,6 +6999,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_BridgePlatform (11)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 57f93303c0456094a9ce6a847386e077, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 57f93303c0456094a9ce6a847386e077, type: 3}
 --- !u!4 &629876208 stripped
@@ -6918,6 +7010,24 @@ Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 57f93303c0456094a9ce6a847386e077, type: 3}
   m_PrefabInstance: {fileID: 629876207}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &634081283 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 57f93303c0456094a9ce6a847386e077, type: 3}
+  m_PrefabInstance: {fileID: 1400843594}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &634081284
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 634081283}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.34993067, y: 0.072158545, z: 0.007208883}
+  m_Center: {x: -0.13184808, y: -0.000000025760091, z: 0.02963278}
 --- !u!1001 &644411933
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -7576,6 +7686,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_BridgePlatform (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 57f93303c0456094a9ce6a847386e077, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 57f93303c0456094a9ce6a847386e077, type: 3}
 --- !u!1001 &723385509
@@ -7946,6 +8060,24 @@ MonoBehaviour:
   m_Bidirectional: 1
   m_AutoUpdatePosition: 0
   m_Area: 0
+--- !u!1 &737851849 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5628005247238068051, guid: e235eaa094293cb4894336643638a007, type: 3}
+  m_PrefabInstance: {fileID: 342287233}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &737851850
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 737851849}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.054173782, y: 0.054267365, z: 0.008638412}
+  m_Center: {x: -0.000040029176, y: 0.0000017760326, z: 0.025385605}
 --- !u!1001 &740739164
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -8094,6 +8226,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 57f93303c0456094a9ce6a847386e077, type: 3}
       propertyPath: m_Name
       value: SM_BridgePlatform (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 57f93303c0456094a9ce6a847386e077, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 57f93303c0456094a9ce6a847386e077, type: 3}
@@ -8565,6 +8701,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_BridgePlatform (7)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 57f93303c0456094a9ce6a847386e077, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 57f93303c0456094a9ce6a847386e077, type: 3}
 --- !u!4 &791126283 stripped
@@ -8922,6 +9062,24 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 539905534346886239, guid: 45d4de5cfbfdedb4e8a5a3a2d297f512, type: 3}
   m_PrefabInstance: {fileID: 825487887}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &826587267 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 57f93303c0456094a9ce6a847386e077, type: 3}
+  m_PrefabInstance: {fileID: 1202655076}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &826587268
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 826587267}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.26191762, y: 0.07215856, z: 0.007702028}
+  m_Center: {x: -0.0878409, y: 0.0000000897824, z: 0.029182944}
 --- !u!1001 &826756127
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -9003,7 +9161,7 @@ GameObject:
   m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 4294967295
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!154 &828186051
 TerrainCollider:
@@ -9093,23 +9251,23 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   enemiesWave1:
-  - {fileID: 7967165698444378734, guid: d638a8defb205bc4a8c27be26407e46a, type: 3}
-  - {fileID: 7967165698444378734, guid: d638a8defb205bc4a8c27be26407e46a, type: 3}
+  - {fileID: 4332507821428886568, guid: 87b25b3ed106af9499c6532cce7d77e6, type: 3}
+  - {fileID: 4332507821428886568, guid: 87b25b3ed106af9499c6532cce7d77e6, type: 3}
   enemiesWave2:
-  - {fileID: 7967165698444378734, guid: d638a8defb205bc4a8c27be26407e46a, type: 3}
-  - {fileID: 7967165698444378734, guid: d638a8defb205bc4a8c27be26407e46a, type: 3}
-  - {fileID: 7967165698444378734, guid: d638a8defb205bc4a8c27be26407e46a, type: 3}
-  - {fileID: 4364592818122814940, guid: fc2a45292265d03479928afc3f318890, type: 3}
-  - {fileID: 4364592818122814940, guid: fc2a45292265d03479928afc3f318890, type: 3}
+  - {fileID: 4332507821428886568, guid: 87b25b3ed106af9499c6532cce7d77e6, type: 3}
+  - {fileID: 4332507821428886568, guid: 87b25b3ed106af9499c6532cce7d77e6, type: 3}
+  - {fileID: 4332507821428886568, guid: 87b25b3ed106af9499c6532cce7d77e6, type: 3}
+  - {fileID: 5182653692242254409, guid: 284b44d7402c17d4ebc96b56b08b2ab4, type: 3}
+  - {fileID: 5182653692242254409, guid: 284b44d7402c17d4ebc96b56b08b2ab4, type: 3}
   enemiesWave3:
-  - {fileID: 7967165698444378734, guid: d638a8defb205bc4a8c27be26407e46a, type: 3}
-  - {fileID: 7967165698444378734, guid: d638a8defb205bc4a8c27be26407e46a, type: 3}
-  - {fileID: 7967165698444378734, guid: d638a8defb205bc4a8c27be26407e46a, type: 3}
-  - {fileID: 7967165698444378734, guid: d638a8defb205bc4a8c27be26407e46a, type: 3}
-  - {fileID: 7967165698444378734, guid: d638a8defb205bc4a8c27be26407e46a, type: 3}
-  - {fileID: 4364592818122814940, guid: fc2a45292265d03479928afc3f318890, type: 3}
-  - {fileID: 4364592818122814940, guid: fc2a45292265d03479928afc3f318890, type: 3}
-  - {fileID: 4364592818122814940, guid: fc2a45292265d03479928afc3f318890, type: 3}
+  - {fileID: 4332507821428886568, guid: 87b25b3ed106af9499c6532cce7d77e6, type: 3}
+  - {fileID: 4332507821428886568, guid: 87b25b3ed106af9499c6532cce7d77e6, type: 3}
+  - {fileID: 4332507821428886568, guid: 87b25b3ed106af9499c6532cce7d77e6, type: 3}
+  - {fileID: 4332507821428886568, guid: 87b25b3ed106af9499c6532cce7d77e6, type: 3}
+  - {fileID: 4332507821428886568, guid: 87b25b3ed106af9499c6532cce7d77e6, type: 3}
+  - {fileID: 5182653692242254409, guid: 284b44d7402c17d4ebc96b56b08b2ab4, type: 3}
+  - {fileID: 5182653692242254409, guid: 284b44d7402c17d4ebc96b56b08b2ab4, type: 3}
+  - {fileID: 5182653692242254409, guid: 284b44d7402c17d4ebc96b56b08b2ab4, type: 3}
   - {fileID: 4230249700272861466, guid: 5bc5f58b6b9715342aea6223f84a2948, type: 3}
   - {fileID: 4230249700272861466, guid: 5bc5f58b6b9715342aea6223f84a2948, type: 3}
   waveCounter: 1
@@ -9122,7 +9280,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 833753378}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -96.32, y: 2.04, z: 24.09}
+  m_LocalPosition: {x: -94.07, y: 4.83, z: 24.09}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -9492,6 +9650,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_BridgePlatform (14)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 57f93303c0456094a9ce6a847386e077, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 57f93303c0456094a9ce6a847386e077, type: 3}
 --- !u!1001 &862604652
@@ -9629,6 +9791,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 57f93303c0456094a9ce6a847386e077, type: 3}
       propertyPath: m_Name
       value: SM_BridgePlatform (14)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 57f93303c0456094a9ce6a847386e077, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 57f93303c0456094a9ce6a847386e077, type: 3}
@@ -10302,6 +10468,24 @@ Light:
   m_UseBoundingSphereOverride: 0
   m_ShadowRadius: 0
   m_ShadowAngle: 0
+--- !u!1 &880765273 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 57f93303c0456094a9ce6a847386e077, type: 3}
+  m_PrefabInstance: {fileID: 1635904696}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &880765274
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 880765273}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.08703291, y: 0.07215856, z: 0.0067475797}
+  m_Center: {x: -0.00039883377, y: -9.5648905e-12, z: 0.030242607}
 --- !u!1 &890768786
 GameObject:
   m_ObjectHideFlags: 0
@@ -11787,6 +11971,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 57f93303c0456094a9ce6a847386e077, type: 3}
       propertyPath: m_Name
       value: SM_BridgePlatform (10)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 57f93303c0456094a9ce6a847386e077, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 57f93303c0456094a9ce6a847386e077, type: 3}
@@ -13911,6 +14099,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_BridgePlatform (12)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 57f93303c0456094a9ce6a847386e077, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 57f93303c0456094a9ce6a847386e077, type: 3}
 --- !u!4 &1202655077 stripped
@@ -14192,6 +14384,24 @@ Transform:
   m_Father: {fileID: 1797496074}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1230376010 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 57f93303c0456094a9ce6a847386e077, type: 3}
+  m_PrefabInstance: {fileID: 1999783959}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &1230376011
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1230376010}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.43572992, y: 0.07215863, z: 0.007322834}
+  m_Center: {x: -0.17474633, y: 0.00000012681849, z: 0.029570984}
 --- !u!1001 &1231675194
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -14762,6 +14972,24 @@ Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: e623649c19b51d14eb8b00e01d8524a0, type: 3}
   m_PrefabInstance: {fileID: 1262029099}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1266636733 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 57f93303c0456094a9ce6a847386e077, type: 3}
+  m_PrefabInstance: {fileID: 711679116}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &1266636734
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1266636733}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.08703277, y: 0.06841042, z: 0.0075280704}
+  m_Center: {x: -0.00039883, y: 0.00013546718, z: 0.029637307}
 --- !u!1 &1267837788
 GameObject:
   m_ObjectHideFlags: 0
@@ -15257,6 +15485,30 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 539905534346886239, guid: 45d4de5cfbfdedb4e8a5a3a2d297f512, type: 3}
   m_PrefabInstance: {fileID: 1306303120}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1326192481 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2675941229057420710, guid: 769b0c672e498df44b8ea12441b72304, type: 3}
+  m_PrefabInstance: {fileID: 214470449}
+  m_PrefabAsset: {fileID: 0}
+--- !u!95 &1326192483
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1326192481}
+  m_Enabled: 1
+  m_Avatar: {fileID: 9000000, guid: 2cdce5badf18da44aa8d3ba2d04defa0, type: 3}
+  m_Controller: {fileID: 9100000, guid: 47b6bffb048a9c64e937e7ee0c7e7866, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 1
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &1332268702
 GameObject:
   m_ObjectHideFlags: 0
@@ -16082,6 +16334,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_BridgePlatform (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 57f93303c0456094a9ce6a847386e077, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 57f93303c0456094a9ce6a847386e077, type: 3}
 --- !u!4 &1395431402 stripped
@@ -16212,6 +16468,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 57f93303c0456094a9ce6a847386e077, type: 3}
       propertyPath: m_Name
       value: SM_BridgePlatform (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 57f93303c0456094a9ce6a847386e077, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 57f93303c0456094a9ce6a847386e077, type: 3}
@@ -16385,6 +16645,24 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 24
   m_LocalEulerAnglesHint: {x: 0, y: -11.686, z: 0}
+--- !u!1 &1418236335 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 57f93303c0456094a9ce6a847386e077, type: 3}
+  m_PrefabInstance: {fileID: 629876207}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &1418236336
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1418236335}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.17458494, y: 0.072158545, z: 0.0062506227}
+  m_Center: {x: -0.04417486, y: 0.0000000041298995, z: 0.029785225}
 --- !u!1 &1431474766
 GameObject:
   m_ObjectHideFlags: 0
@@ -16460,6 +16738,24 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1431474766}
   m_CullTransparentMesh: 0
+--- !u!1 &1443549847 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 57f93303c0456094a9ce6a847386e077, type: 3}
+  m_PrefabInstance: {fileID: 859407982}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &1443549848
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1443549847}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.08703305, y: 0.07215858, z: 0.005877124}
+  m_Center: {x: -0.00039883368, y: -0.00000003020319, z: 0.0301809}
 --- !u!1001 &1444088127
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -16526,6 +16822,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 57f93303c0456094a9ce6a847386e077, type: 3}
       propertyPath: m_Name
       value: SM_BridgePlatform (12)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 57f93303c0456094a9ce6a847386e077, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 57f93303c0456094a9ce6a847386e077, type: 3}
@@ -16595,6 +16895,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 57f93303c0456094a9ce6a847386e077, type: 3}
       propertyPath: m_Name
       value: SM_BridgePlatform (10)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 57f93303c0456094a9ce6a847386e077, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 57f93303c0456094a9ce6a847386e077, type: 3}
@@ -17270,6 +17574,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_BridgePlatform (15)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 57f93303c0456094a9ce6a847386e077, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 57f93303c0456094a9ce6a847386e077, type: 3}
 --- !u!1 &1502521648
@@ -17889,8 +18197,36 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_BridgePlatform (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 57f93303c0456094a9ce6a847386e077, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 57f93303c0456094a9ce6a847386e077, type: 3}
+--- !u!1 &1583314882 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1730647688791894964, guid: 769b0c672e498df44b8ea12441b72304, type: 3}
+  m_PrefabInstance: {fileID: 214470449}
+  m_PrefabAsset: {fileID: 0}
+--- !u!95 &1583314884
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1583314882}
+  m_Enabled: 1
+  m_Avatar: {fileID: 9000000, guid: 8d3034c1fba66ba4a98a75c08324a52a, type: 3}
+  m_Controller: {fileID: 9100000, guid: dd8efa90ad2360b4a9d5311dd0f6b5fc, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 1
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1001 &1590133344
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -18502,6 +18838,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_BridgePlatform (8)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 57f93303c0456094a9ce6a847386e077, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 57f93303c0456094a9ce6a847386e077, type: 3}
 --- !u!1001 &1638207813
@@ -18963,6 +19303,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_BridgePlatform (9)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 57f93303c0456094a9ce6a847386e077, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 57f93303c0456094a9ce6a847386e077, type: 3}
 --- !u!4 &1679902565 stripped
@@ -19278,6 +19622,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_BridgePlatform (13)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 57f93303c0456094a9ce6a847386e077, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 57f93303c0456094a9ce6a847386e077, type: 3}
 --- !u!1 &1710105386
@@ -19592,6 +19940,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 57f93303c0456094a9ce6a847386e077, type: 3}
       propertyPath: m_Name
       value: SM_BridgePlatform (11)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 57f93303c0456094a9ce6a847386e077, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 57f93303c0456094a9ce6a847386e077, type: 3}
@@ -20608,6 +20960,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_BridgePlatform (6)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 57f93303c0456094a9ce6a847386e077, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 57f93303c0456094a9ce6a847386e077, type: 3}
 --- !u!1 &1769457879
@@ -21120,6 +21476,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 57f93303c0456094a9ce6a847386e077, type: 3}
       propertyPath: m_Name
       value: SM_BridgePlatform (13)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 57f93303c0456094a9ce6a847386e077, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 57f93303c0456094a9ce6a847386e077, type: 3}
@@ -22113,6 +22473,42 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 15
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1890909139 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 57f93303c0456094a9ce6a847386e077, type: 3}
+  m_PrefabInstance: {fileID: 1395431401}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &1890909140
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1890909139}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.35154545, y: 0.062960945, z: 0.0074821557}
+  m_Center: {x: 0.04301221, y: -0.00053854164, z: 0.029569305}
+--- !u!1 &1895457347 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 57f93303c0456094a9ce6a847386e077, type: 3}
+  m_PrefabInstance: {fileID: 1679902564}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &1895457348
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1895457347}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.6091616, y: 0.072158575, z: 0.008040106}
+  m_Center: {x: -0.2614625, y: -0.00000021476806, z: 0.029778298}
 --- !u!1 &1910607637
 GameObject:
   m_ObjectHideFlags: 0
@@ -22883,6 +23279,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_BridgePlatform (10)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 57f93303c0456094a9ce6a847386e077, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 57f93303c0456094a9ce6a847386e077, type: 3}
 --- !u!4 &1999783960 stripped
@@ -22890,6 +23290,24 @@ Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 57f93303c0456094a9ce6a847386e077, type: 3}
   m_PrefabInstance: {fileID: 1999783959}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &2001443450 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 57f93303c0456094a9ce6a847386e077, type: 3}
+  m_PrefabInstance: {fileID: 430143722}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &2001443451
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2001443450}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.26241612, y: 0.072158545, z: 0.0063597243}
+  m_Center: {x: -0.08809062, y: 0.000000073190684, z: 0.029819522}
 --- !u!1001 &2012022532
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -23462,6 +23880,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 57f93303c0456094a9ce6a847386e077, type: 3}
       propertyPath: m_Name
       value: SM_BridgePlatform (12)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 57f93303c0456094a9ce6a847386e077, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 57f93303c0456094a9ce6a847386e077, type: 3}
