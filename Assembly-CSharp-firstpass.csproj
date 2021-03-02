@@ -11,7 +11,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{AB2D97EF-08AD-DD65-14C1-BF5F2A9E746A}</ProjectGuid>
+    <ProjectGuid>{77D9A414-363A-0AA7-CD01-8487CFA77C56}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp-firstpass</AssemblyName>
@@ -182,79 +182,82 @@
      <None Include="Assets\Standard Assets\Vehicles\Car\Shaders\ReflectiveDiffuseSpec.shader" />
      <None Include="Assets\Standard Assets\Fonts\OpenSans\License!.txt" />
  <Reference Include="Unity.Timeline.Editor">
- <HintPath>D:/Masters/RaymanGame/Proj/Backup - Copy/ConsoleProjWhitebox_Updated_23-02-21/ConsoleProjWhitebox_21Feb/ConsoleProjWhitebox/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
+ <HintPath>D:/Masters/RaymanGame/Proj/RaymanProject/RaymanProject/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
  </Reference>
  <Reference Include="Unity.TerrainTools">
- <HintPath>D:/Masters/RaymanGame/Proj/Backup - Copy/ConsoleProjWhitebox_Updated_23-02-21/ConsoleProjWhitebox_21Feb/ConsoleProjWhitebox/Library/ScriptAssemblies/Unity.TerrainTools.dll</HintPath>
+ <HintPath>D:/Masters/RaymanGame/Proj/RaymanProject/RaymanProject/Library/ScriptAssemblies/Unity.TerrainTools.dll</HintPath>
  </Reference>
  <Reference Include="Unity.VSCode.Editor">
- <HintPath>D:/Masters/RaymanGame/Proj/Backup - Copy/ConsoleProjWhitebox_Updated_23-02-21/ConsoleProjWhitebox_21Feb/ConsoleProjWhitebox/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
+ <HintPath>D:/Masters/RaymanGame/Proj/RaymanProject/RaymanProject/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
  </Reference>
  <Reference Include="Unity.ProBuilder">
- <HintPath>D:/Masters/RaymanGame/Proj/Backup - Copy/ConsoleProjWhitebox_Updated_23-02-21/ConsoleProjWhitebox_21Feb/ConsoleProjWhitebox/Library/ScriptAssemblies/Unity.ProBuilder.dll</HintPath>
+ <HintPath>D:/Masters/RaymanGame/Proj/RaymanProject/RaymanProject/Library/ScriptAssemblies/Unity.ProBuilder.dll</HintPath>
  </Reference>
  <Reference Include="Unity.RenderPipelines.Core.Editor">
- <HintPath>D:/Masters/RaymanGame/Proj/Backup - Copy/ConsoleProjWhitebox_Updated_23-02-21/ConsoleProjWhitebox_21Feb/ConsoleProjWhitebox/Library/ScriptAssemblies/Unity.RenderPipelines.Core.Editor.dll</HintPath>
+ <HintPath>D:/Masters/RaymanGame/Proj/RaymanProject/RaymanProject/Library/ScriptAssemblies/Unity.RenderPipelines.Core.Editor.dll</HintPath>
  </Reference>
  <Reference Include="Unity.ProBuilder.Editor">
- <HintPath>D:/Masters/RaymanGame/Proj/Backup - Copy/ConsoleProjWhitebox_Updated_23-02-21/ConsoleProjWhitebox_21Feb/ConsoleProjWhitebox/Library/ScriptAssemblies/Unity.ProBuilder.Editor.dll</HintPath>
+ <HintPath>D:/Masters/RaymanGame/Proj/RaymanProject/RaymanProject/Library/ScriptAssemblies/Unity.ProBuilder.Editor.dll</HintPath>
  </Reference>
  <Reference Include="Unity.ProBuilder.AssetIdRemapUtility">
- <HintPath>D:/Masters/RaymanGame/Proj/Backup - Copy/ConsoleProjWhitebox_Updated_23-02-21/ConsoleProjWhitebox_21Feb/ConsoleProjWhitebox/Library/ScriptAssemblies/Unity.ProBuilder.AssetIdRemapUtility.dll</HintPath>
+ <HintPath>D:/Masters/RaymanGame/Proj/RaymanProject/RaymanProject/Library/ScriptAssemblies/Unity.ProBuilder.AssetIdRemapUtility.dll</HintPath>
  </Reference>
  <Reference Include="Unity.RenderPipelines.Core.Runtime">
- <HintPath>D:/Masters/RaymanGame/Proj/Backup - Copy/ConsoleProjWhitebox_Updated_23-02-21/ConsoleProjWhitebox_21Feb/ConsoleProjWhitebox/Library/ScriptAssemblies/Unity.RenderPipelines.Core.Runtime.dll</HintPath>
+ <HintPath>D:/Masters/RaymanGame/Proj/RaymanProject/RaymanProject/Library/ScriptAssemblies/Unity.RenderPipelines.Core.Runtime.dll</HintPath>
  </Reference>
  <Reference Include="Unity.VisualEffectGraph.Runtime">
- <HintPath>D:/Masters/RaymanGame/Proj/Backup - Copy/ConsoleProjWhitebox_Updated_23-02-21/ConsoleProjWhitebox_21Feb/ConsoleProjWhitebox/Library/ScriptAssemblies/Unity.VisualEffectGraph.Runtime.dll</HintPath>
+ <HintPath>D:/Masters/RaymanGame/Proj/RaymanProject/RaymanProject/Library/ScriptAssemblies/Unity.VisualEffectGraph.Runtime.dll</HintPath>
  </Reference>
  <Reference Include="Unity.TextMeshPro.Editor">
- <HintPath>D:/Masters/RaymanGame/Proj/Backup - Copy/ConsoleProjWhitebox_Updated_23-02-21/ConsoleProjWhitebox_21Feb/ConsoleProjWhitebox/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
+ <HintPath>D:/Masters/RaymanGame/Proj/RaymanProject/RaymanProject/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.UI">
- <HintPath>D:/Masters/RaymanGame/Proj/Backup - Copy/ConsoleProjWhitebox_Updated_23-02-21/ConsoleProjWhitebox_21Feb/ConsoleProjWhitebox/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
+ <HintPath>D:/Masters/RaymanGame/Proj/RaymanProject/RaymanProject/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
  </Reference>
  <Reference Include="Unity.Searcher.Editor">
- <HintPath>D:/Masters/RaymanGame/Proj/Backup - Copy/ConsoleProjWhitebox_Updated_23-02-21/ConsoleProjWhitebox_21Feb/ConsoleProjWhitebox/Library/ScriptAssemblies/Unity.Searcher.Editor.dll</HintPath>
+ <HintPath>D:/Masters/RaymanGame/Proj/RaymanProject/RaymanProject/Library/ScriptAssemblies/Unity.Searcher.Editor.dll</HintPath>
  </Reference>
  <Reference Include="Unity.Timeline">
- <HintPath>D:/Masters/RaymanGame/Proj/Backup - Copy/ConsoleProjWhitebox_Updated_23-02-21/ConsoleProjWhitebox_21Feb/ConsoleProjWhitebox/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
+ <HintPath>D:/Masters/RaymanGame/Proj/RaymanProject/RaymanProject/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
  </Reference>
  <Reference Include="Unity.Postprocessing.Editor">
- <HintPath>D:/Masters/RaymanGame/Proj/Backup - Copy/ConsoleProjWhitebox_Updated_23-02-21/ConsoleProjWhitebox_21Feb/ConsoleProjWhitebox/Library/ScriptAssemblies/Unity.Postprocessing.Editor.dll</HintPath>
+ <HintPath>D:/Masters/RaymanGame/Proj/RaymanProject/RaymanProject/Library/ScriptAssemblies/Unity.Postprocessing.Editor.dll</HintPath>
  </Reference>
  <Reference Include="Unity.Rider.Editor">
- <HintPath>D:/Masters/RaymanGame/Proj/Backup - Copy/ConsoleProjWhitebox_Updated_23-02-21/ConsoleProjWhitebox_21Feb/ConsoleProjWhitebox/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
+ <HintPath>D:/Masters/RaymanGame/Proj/RaymanProject/RaymanProject/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
  </Reference>
  <Reference Include="Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary">
- <HintPath>D:/Masters/RaymanGame/Proj/Backup - Copy/ConsoleProjWhitebox_Updated_23-02-21/ConsoleProjWhitebox_21Feb/ConsoleProjWhitebox/Library/ScriptAssemblies/Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll</HintPath>
+ <HintPath>D:/Masters/RaymanGame/Proj/RaymanProject/RaymanProject/Library/ScriptAssemblies/Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.2D.Sprite.Editor">
+ <HintPath>D:/Masters/RaymanGame/Proj/RaymanProject/RaymanProject/Library/ScriptAssemblies/Unity.2D.Sprite.Editor.dll</HintPath>
  </Reference>
  <Reference Include="Unity.Postprocessing.Runtime">
- <HintPath>D:/Masters/RaymanGame/Proj/Backup - Copy/ConsoleProjWhitebox_Updated_23-02-21/ConsoleProjWhitebox_21Feb/ConsoleProjWhitebox/Library/ScriptAssemblies/Unity.Postprocessing.Runtime.dll</HintPath>
+ <HintPath>D:/Masters/RaymanGame/Proj/RaymanProject/RaymanProject/Library/ScriptAssemblies/Unity.Postprocessing.Runtime.dll</HintPath>
  </Reference>
  <Reference Include="Unity.VisualStudio.Editor">
- <HintPath>D:/Masters/RaymanGame/Proj/Backup - Copy/ConsoleProjWhitebox_Updated_23-02-21/ConsoleProjWhitebox_21Feb/ConsoleProjWhitebox/Library/ScriptAssemblies/Unity.VisualStudio.Editor.dll</HintPath>
+ <HintPath>D:/Masters/RaymanGame/Proj/RaymanProject/RaymanProject/Library/ScriptAssemblies/Unity.VisualStudio.Editor.dll</HintPath>
  </Reference>
  <Reference Include="Unity.VisualEffectGraph.Editor">
- <HintPath>D:/Masters/RaymanGame/Proj/Backup - Copy/ConsoleProjWhitebox_Updated_23-02-21/ConsoleProjWhitebox_21Feb/ConsoleProjWhitebox/Library/ScriptAssemblies/Unity.VisualEffectGraph.Editor.dll</HintPath>
+ <HintPath>D:/Masters/RaymanGame/Proj/RaymanProject/RaymanProject/Library/ScriptAssemblies/Unity.VisualEffectGraph.Editor.dll</HintPath>
  </Reference>
  <Reference Include="Unity.ProBuilder.AddOns.Editor">
- <HintPath>D:/Masters/RaymanGame/Proj/Backup - Copy/ConsoleProjWhitebox_Updated_23-02-21/ConsoleProjWhitebox_21Feb/ConsoleProjWhitebox/Library/ScriptAssemblies/Unity.ProBuilder.AddOns.Editor.dll</HintPath>
+ <HintPath>D:/Masters/RaymanGame/Proj/RaymanProject/RaymanProject/Library/ScriptAssemblies/Unity.ProBuilder.AddOns.Editor.dll</HintPath>
  </Reference>
  <Reference Include="Unity.ShaderGraph.Editor">
- <HintPath>D:/Masters/RaymanGame/Proj/Backup - Copy/ConsoleProjWhitebox_Updated_23-02-21/ConsoleProjWhitebox_21Feb/ConsoleProjWhitebox/Library/ScriptAssemblies/Unity.ShaderGraph.Editor.dll</HintPath>
+ <HintPath>D:/Masters/RaymanGame/Proj/RaymanProject/RaymanProject/Library/ScriptAssemblies/Unity.ShaderGraph.Editor.dll</HintPath>
  </Reference>
  <Reference Include="Unity.RenderPipelines.Core.ShaderLibrary">
- <HintPath>D:/Masters/RaymanGame/Proj/Backup - Copy/ConsoleProjWhitebox_Updated_23-02-21/ConsoleProjWhitebox_21Feb/ConsoleProjWhitebox/Library/ScriptAssemblies/Unity.RenderPipelines.Core.ShaderLibrary.dll</HintPath>
+ <HintPath>D:/Masters/RaymanGame/Proj/RaymanProject/RaymanProject/Library/ScriptAssemblies/Unity.RenderPipelines.Core.ShaderLibrary.dll</HintPath>
  </Reference>
  <Reference Include="Unity.TextMeshPro">
- <HintPath>D:/Masters/RaymanGame/Proj/Backup - Copy/ConsoleProjWhitebox_Updated_23-02-21/ConsoleProjWhitebox_21Feb/ConsoleProjWhitebox/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+ <HintPath>D:/Masters/RaymanGame/Proj/RaymanProject/RaymanProject/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
  </Reference>
  <Reference Include="Unity.TerrainTools.Editor">
- <HintPath>D:/Masters/RaymanGame/Proj/Backup - Copy/ConsoleProjWhitebox_Updated_23-02-21/ConsoleProjWhitebox_21Feb/ConsoleProjWhitebox/Library/ScriptAssemblies/Unity.TerrainTools.Editor.dll</HintPath>
+ <HintPath>D:/Masters/RaymanGame/Proj/RaymanProject/RaymanProject/Library/ScriptAssemblies/Unity.TerrainTools.Editor.dll</HintPath>
  </Reference>
  <Reference Include="UnityEditor.UI">
- <HintPath>D:/Masters/RaymanGame/Proj/Backup - Copy/ConsoleProjWhitebox_Updated_23-02-21/ConsoleProjWhitebox_21Feb/ConsoleProjWhitebox/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
+ <HintPath>D:/Masters/RaymanGame/Proj/RaymanProject/RaymanProject/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.AIModule">
  <HintPath>D:/Apps/Unityeditors/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
@@ -440,49 +443,49 @@
  <HintPath>D:/Apps/Unityeditors/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.XRModule.dll</HintPath>
  </Reference>
  <Reference Include="Antlr3.Runtime">
- <HintPath>D:/Masters/RaymanGame/Proj/Backup - Copy/ConsoleProjWhitebox_Updated_23-02-21/ConsoleProjWhitebox_21Feb/ConsoleProjWhitebox/Assets/Ludiq/Assemblies/Antlr3.Runtime.dll</HintPath>
+ <HintPath>D:/Masters/RaymanGame/Proj/RaymanProject/RaymanProject/Assets/Ludiq/Assemblies/Antlr3.Runtime.dll</HintPath>
  </Reference>
  <Reference Include="Bolt.Core.Editor">
- <HintPath>D:/Masters/RaymanGame/Proj/Backup - Copy/ConsoleProjWhitebox_Updated_23-02-21/ConsoleProjWhitebox_21Feb/ConsoleProjWhitebox/Assets/Ludiq/Assemblies/Bolt.Core.Editor.dll</HintPath>
+ <HintPath>D:/Masters/RaymanGame/Proj/RaymanProject/RaymanProject/Assets/Ludiq/Assemblies/Bolt.Core.Editor.dll</HintPath>
  </Reference>
  <Reference Include="Bolt.Core.Runtime">
- <HintPath>D:/Masters/RaymanGame/Proj/Backup - Copy/ConsoleProjWhitebox_Updated_23-02-21/ConsoleProjWhitebox_21Feb/ConsoleProjWhitebox/Assets/Ludiq/Assemblies/Bolt.Core.Runtime.dll</HintPath>
+ <HintPath>D:/Masters/RaymanGame/Proj/RaymanProject/RaymanProject/Assets/Ludiq/Assemblies/Bolt.Core.Runtime.dll</HintPath>
  </Reference>
  <Reference Include="Bolt.Flow.Editor">
- <HintPath>D:/Masters/RaymanGame/Proj/Backup - Copy/ConsoleProjWhitebox_Updated_23-02-21/ConsoleProjWhitebox_21Feb/ConsoleProjWhitebox/Assets/Ludiq/Assemblies/Bolt.Flow.Editor.dll</HintPath>
+ <HintPath>D:/Masters/RaymanGame/Proj/RaymanProject/RaymanProject/Assets/Ludiq/Assemblies/Bolt.Flow.Editor.dll</HintPath>
  </Reference>
  <Reference Include="Bolt.Flow.Runtime">
- <HintPath>D:/Masters/RaymanGame/Proj/Backup - Copy/ConsoleProjWhitebox_Updated_23-02-21/ConsoleProjWhitebox_21Feb/ConsoleProjWhitebox/Assets/Ludiq/Assemblies/Bolt.Flow.Runtime.dll</HintPath>
+ <HintPath>D:/Masters/RaymanGame/Proj/RaymanProject/RaymanProject/Assets/Ludiq/Assemblies/Bolt.Flow.Runtime.dll</HintPath>
  </Reference>
  <Reference Include="Bolt.State.Editor">
- <HintPath>D:/Masters/RaymanGame/Proj/Backup - Copy/ConsoleProjWhitebox_Updated_23-02-21/ConsoleProjWhitebox_21Feb/ConsoleProjWhitebox/Assets/Ludiq/Assemblies/Bolt.State.Editor.dll</HintPath>
+ <HintPath>D:/Masters/RaymanGame/Proj/RaymanProject/RaymanProject/Assets/Ludiq/Assemblies/Bolt.State.Editor.dll</HintPath>
  </Reference>
  <Reference Include="Bolt.State.Runtime">
- <HintPath>D:/Masters/RaymanGame/Proj/Backup - Copy/ConsoleProjWhitebox_Updated_23-02-21/ConsoleProjWhitebox_21Feb/ConsoleProjWhitebox/Assets/Ludiq/Assemblies/Bolt.State.Runtime.dll</HintPath>
+ <HintPath>D:/Masters/RaymanGame/Proj/RaymanProject/RaymanProject/Assets/Ludiq/Assemblies/Bolt.State.Runtime.dll</HintPath>
  </Reference>
  <Reference Include="Ionic.Zip">
- <HintPath>D:/Masters/RaymanGame/Proj/Backup - Copy/ConsoleProjWhitebox_Updated_23-02-21/ConsoleProjWhitebox_21Feb/ConsoleProjWhitebox/Assets/Ludiq/Assemblies/Ionic.Zip.dll</HintPath>
+ <HintPath>D:/Masters/RaymanGame/Proj/RaymanProject/RaymanProject/Assets/Ludiq/Assemblies/Ionic.Zip.dll</HintPath>
  </Reference>
  <Reference Include="Ludiq.Core.Editor">
- <HintPath>D:/Masters/RaymanGame/Proj/Backup - Copy/ConsoleProjWhitebox_Updated_23-02-21/ConsoleProjWhitebox_21Feb/ConsoleProjWhitebox/Assets/Ludiq/Assemblies/Ludiq.Core.Editor.dll</HintPath>
+ <HintPath>D:/Masters/RaymanGame/Proj/RaymanProject/RaymanProject/Assets/Ludiq/Assemblies/Ludiq.Core.Editor.dll</HintPath>
  </Reference>
  <Reference Include="Ludiq.Core.Runtime">
- <HintPath>D:/Masters/RaymanGame/Proj/Backup - Copy/ConsoleProjWhitebox_Updated_23-02-21/ConsoleProjWhitebox_21Feb/ConsoleProjWhitebox/Assets/Ludiq/Assemblies/Ludiq.Core.Runtime.dll</HintPath>
+ <HintPath>D:/Masters/RaymanGame/Proj/RaymanProject/RaymanProject/Assets/Ludiq/Assemblies/Ludiq.Core.Runtime.dll</HintPath>
  </Reference>
  <Reference Include="Ludiq.Graphs.Editor">
- <HintPath>D:/Masters/RaymanGame/Proj/Backup - Copy/ConsoleProjWhitebox_Updated_23-02-21/ConsoleProjWhitebox_21Feb/ConsoleProjWhitebox/Assets/Ludiq/Assemblies/Ludiq.Graphs.Editor.dll</HintPath>
+ <HintPath>D:/Masters/RaymanGame/Proj/RaymanProject/RaymanProject/Assets/Ludiq/Assemblies/Ludiq.Graphs.Editor.dll</HintPath>
  </Reference>
  <Reference Include="Ludiq.Graphs.Runtime">
- <HintPath>D:/Masters/RaymanGame/Proj/Backup - Copy/ConsoleProjWhitebox_Updated_23-02-21/ConsoleProjWhitebox_21Feb/ConsoleProjWhitebox/Assets/Ludiq/Assemblies/Ludiq.Graphs.Runtime.dll</HintPath>
+ <HintPath>D:/Masters/RaymanGame/Proj/RaymanProject/RaymanProject/Assets/Ludiq/Assemblies/Ludiq.Graphs.Runtime.dll</HintPath>
  </Reference>
  <Reference Include="Ludiq.Platforms">
- <HintPath>D:/Masters/RaymanGame/Proj/Backup - Copy/ConsoleProjWhitebox_Updated_23-02-21/ConsoleProjWhitebox_21Feb/ConsoleProjWhitebox/Assets/Ludiq/Assemblies/Ludiq.Platforms.dll</HintPath>
+ <HintPath>D:/Masters/RaymanGame/Proj/RaymanProject/RaymanProject/Assets/Ludiq/Assemblies/Ludiq.Platforms.dll</HintPath>
  </Reference>
  <Reference Include="MiscUtil">
- <HintPath>D:/Masters/RaymanGame/Proj/Backup - Copy/ConsoleProjWhitebox_Updated_23-02-21/ConsoleProjWhitebox_21Feb/ConsoleProjWhitebox/Assets/Ludiq/Assemblies/MiscUtil.dll</HintPath>
+ <HintPath>D:/Masters/RaymanGame/Proj/RaymanProject/RaymanProject/Assets/Ludiq/Assemblies/MiscUtil.dll</HintPath>
  </Reference>
  <Reference Include="YamlDotNet">
- <HintPath>D:/Masters/RaymanGame/Proj/Backup - Copy/ConsoleProjWhitebox_Updated_23-02-21/ConsoleProjWhitebox_21Feb/ConsoleProjWhitebox/Assets/Ludiq/Assemblies/YamlDotNet.dll</HintPath>
+ <HintPath>D:/Masters/RaymanGame/Proj/RaymanProject/RaymanProject/Assets/Ludiq/Assemblies/YamlDotNet.dll</HintPath>
  </Reference>
  <Reference Include="mscorlib">
  <HintPath>D:/Apps/Unityeditors/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/mscorlib.dll</HintPath>
@@ -832,11 +835,11 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="NavMeshComponentsEditor.csproj">
-      <Project>{22E27778-29CF-BE48-B49C-39811CE9B709}</Project>
+      <Project>{FA1FC2F7-4172-F842-4CCE-702882B27277}</Project>
       <Name>NavMeshComponentsEditor</Name>
     </ProjectReference>
     <ProjectReference Include="NavMeshComponents.csproj">
-      <Project>{6ABE8E67-ED9F-31F6-2737-5929EAC2887A}</Project>
+      <Project>{AED3D593-BCF9-0CF0-D711-FF73E5EDC4EA}</Project>
       <Name>NavMeshComponents</Name>
     </ProjectReference>
   </ItemGroup>
