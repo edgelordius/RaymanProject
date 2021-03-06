@@ -11984,6 +11984,195 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 539905534346886239, guid: 45d4de5cfbfdedb4e8a5a3a2d297f512, type: 3}
   m_PrefabInstance: {fileID: 924443974}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &925275134
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 925275136}
+  - component: {fileID: 925275135}
+  m_Layer: 0
+  m_Name: AudioManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &925275135
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 925275134}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b9269f043d1db7a43a8683df9dbaac80, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mixerGroup: {fileID: 0}
+  sounds:
+  - name: fistspin
+    clip: {fileID: 8300000, guid: 2933c5233f0225a43a183cb551927f24, type: 3}
+    volume: 0.2
+    volumeVariance: 0
+    pitch: 1
+    pitchVariance: 0
+    loop: 0
+    mixerGroup: {fileID: 24300002, guid: bbbcc8e27ebfe7d44972a00e8038334a, type: 2}
+    source: {fileID: 0}
+  - name: jump
+    clip: {fileID: 8300000, guid: 595e18cb0b534644e8b7693d610a5bc0, type: 3}
+    volume: 0.2
+    volumeVariance: 0
+    pitch: 1
+    pitchVariance: 0
+    loop: 0
+    mixerGroup: {fileID: 24300002, guid: bbbcc8e27ebfe7d44972a00e8038334a, type: 2}
+    source: {fileID: 0}
+  - name: jumpland
+    clip: {fileID: 8300000, guid: 60e23e0491e2889409a94a2209e3b128, type: 3}
+    volume: 0
+    volumeVariance: 0
+    pitch: 1
+    pitchVariance: 0
+    loop: 0
+    mixerGroup: {fileID: 24300002, guid: bbbcc8e27ebfe7d44972a00e8038334a, type: 2}
+    source: {fileID: 0}
+  - name: kicknormal
+    clip: {fileID: 8300000, guid: c72b761bb2af2ad4fb42d48f8ff6f42d, type: 3}
+    volume: 0.2
+    volumeVariance: 0
+    pitch: 1
+    pitchVariance: 0
+    loop: 0
+    mixerGroup: {fileID: 24300002, guid: bbbcc8e27ebfe7d44972a00e8038334a, type: 2}
+    source: {fileID: 0}
+  - name: lumsshimmer
+    clip: {fileID: 8300000, guid: d444769fa5c3df1409f24d84cf8feeee, type: 3}
+    volume: 0.2
+    volumeVariance: 0
+    pitch: 1
+    pitchVariance: 0
+    loop: 0
+    mixerGroup: {fileID: 24300002, guid: bbbcc8e27ebfe7d44972a00e8038334a, type: 2}
+    source: {fileID: 0}
+  - name: raymanflying
+    clip: {fileID: 8300000, guid: 57e78901b3ec47540ab30b89009b35d2, type: 3}
+    volume: 0.2
+    volumeVariance: 0
+    pitch: 1
+    pitchVariance: 0
+    loop: 0
+    mixerGroup: {fileID: 24300002, guid: bbbcc8e27ebfe7d44972a00e8038334a, type: 2}
+    source: {fileID: 0}
+  - name: run1
+    clip: {fileID: 8300000, guid: 1ee00feaabf3ba64cb6f4230dae000bb, type: 3}
+    volume: 0.2
+    volumeVariance: 0
+    pitch: 1
+    pitchVariance: 0
+    loop: 0
+    mixerGroup: {fileID: 24300002, guid: bbbcc8e27ebfe7d44972a00e8038334a, type: 2}
+    source: {fileID: 0}
+  - name: run2
+    clip: {fileID: 8300000, guid: d3d071f5c4c249e4a90735c9d404fccd, type: 3}
+    volume: 0.2
+    volumeVariance: 0
+    pitch: 1
+    pitchVariance: 0
+    loop: 0
+    mixerGroup: {fileID: 24300002, guid: bbbcc8e27ebfe7d44972a00e8038334a, type: 2}
+    source: {fileID: 0}
+  - name: run3
+    clip: {fileID: 8300000, guid: 259b24bcb7e8da6489282968d046f758, type: 3}
+    volume: 0.2
+    volumeVariance: 0
+    pitch: 1
+    pitchVariance: 0
+    loop: 0
+    mixerGroup: {fileID: 24300002, guid: bbbcc8e27ebfe7d44972a00e8038334a, type: 2}
+    source: {fileID: 0}
+  - name: simplepunch
+    clip: {fileID: 8300000, guid: 3ed46dda592be8942aa899fe2d5e0995, type: 3}
+    volume: 0.2
+    volumeVariance: 0
+    pitch: 1
+    pitchVariance: 0
+    loop: 0
+    mixerGroup: {fileID: 24300002, guid: bbbcc8e27ebfe7d44972a00e8038334a, type: 2}
+    source: {fileID: 0}
+  - name: wooshkick
+    clip: {fileID: 8300000, guid: e8409111a23a67f498fd00408f4fea56, type: 3}
+    volume: 0.2
+    volumeVariance: 0
+    pitch: 1
+    pitchVariance: 0
+    loop: 0
+    mixerGroup: {fileID: 24300002, guid: bbbcc8e27ebfe7d44972a00e8038334a, type: 2}
+    source: {fileID: 0}
+  - name: wooshpunch
+    clip: {fileID: 8300000, guid: 80ea4616f14e32c4dadd58d5a8729f86, type: 3}
+    volume: 0.2
+    volumeVariance: 0
+    pitch: 1
+    pitchVariance: 0
+    loop: 0
+    mixerGroup: {fileID: 24300002, guid: bbbcc8e27ebfe7d44972a00e8038334a, type: 2}
+    source: {fileID: 0}
+  - name: zombiechickenattack
+    clip: {fileID: 8300000, guid: 885c51358ef555c4f908843a34fc9ddc, type: 3}
+    volume: 0.2
+    volumeVariance: 0
+    pitch: 1
+    pitchVariance: 0
+    loop: 0
+    mixerGroup: {fileID: 24300002, guid: bbbcc8e27ebfe7d44972a00e8038334a, type: 2}
+    source: {fileID: 0}
+  - name: zombiechickenbreathe
+    clip: {fileID: 8300000, guid: 6532d10d090e5cc488e443f6518fe029, type: 3}
+    volume: 0.2
+    volumeVariance: 0
+    pitch: 1
+    pitchVariance: 0
+    loop: 0
+    mixerGroup: {fileID: 24300002, guid: bbbcc8e27ebfe7d44972a00e8038334a, type: 2}
+    source: {fileID: 0}
+  - name: ominouslevelmusic
+    clip: {fileID: 8300000, guid: 3b1d7be616034d946bf1710d86fc06f8, type: 3}
+    volume: 0.5
+    volumeVariance: 0
+    pitch: 1
+    pitchVariance: 0
+    loop: 1
+    mixerGroup: {fileID: 24300002, guid: bbbcc8e27ebfe7d44972a00e8038334a, type: 2}
+    source: {fileID: 0}
+  - name: normallevelmusic
+    clip: {fileID: 8300000, guid: 521928661b94d8f4ba71b08f6cdbb929, type: 3}
+    volume: 0.5
+    volumeVariance: 0
+    pitch: 1
+    pitchVariance: 0
+    loop: 1
+    mixerGroup: {fileID: 24300002, guid: bbbcc8e27ebfe7d44972a00e8038334a, type: 2}
+    source: {fileID: 0}
+--- !u!4 &925275136
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 925275134}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 100
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &925841539
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -27200,6 +27389,133 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 89685ae33ee755f4792d0aa6714e206c, type: 3}
+--- !u!1 &2143236900
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2143236902}
+  - component: {fileID: 2143236901}
+  m_Layer: 0
+  m_Name: bgmusic
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!82 &2143236901
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2143236900}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 24300002, guid: bbbcc8e27ebfe7d44972a00e8038334a, type: 2}
+  m_audioClip: {fileID: 8300000, guid: 521928661b94d8f4ba71b08f6cdbb929, type: 3}
+  m_PlayOnAwake: 1
+  m_Volume: 0.5
+  m_Pitch: 1
+  Loop: 1
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+--- !u!4 &2143236902
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2143236900}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 41.99, y: -6.57, z: -20.72}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 99
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &543450652287346306 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 8609645513672396453, guid: 89685ae33ee755f4792d0aa6714e206c, type: 3}

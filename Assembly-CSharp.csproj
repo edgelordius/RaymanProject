@@ -86,6 +86,8 @@
      <Compile Include="Assets\Scripts\PlayerMovement.cs" />
      <Compile Include="Assets\Scripts\CutsceneCamController.cs" />
      <Compile Include="Assets\Scripts\MainMenuScript.cs" />
+     <Compile Include="Assets\Sound and Music\AudioManager.cs" />
+     <Compile Include="Assets\Sound and Music\Sound.cs" />
      <None Include="Assets\#NVJOB Boids\Example Scenes\NVJOB Assets\SC Shaders (Legacy)\SC Shader (Cutout. Normalmap, Reflection, Cull Off).shader" />
      <None Include="Assets\Ludiq\Ludiq.Core\DotNetDocumentation\System.Web.Extensions.Design.xml" />
      <None Include="Assets\Ludiq\Ludiq.Core\DotNetDocumentation\Microsoft.Build.Engine.xml" />
