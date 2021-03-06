@@ -4721,7 +4721,7 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 3658836613060697373, guid: 4262d42a7f79e004d8c111cf8418a0ea, type: 3}
   m_PrefabInstance: {fileID: 1804171979}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &356474770
+--- !u!114 &356474766
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -12035,7 +12035,7 @@ MonoBehaviour:
     source: {fileID: 0}
   - name: jumpland
     clip: {fileID: 8300000, guid: 60e23e0491e2889409a94a2209e3b128, type: 3}
-    volume: 0
+    volume: 1
     volumeVariance: 0
     pitch: 1
     pitchVariance: 0
@@ -12062,11 +12062,11 @@ MonoBehaviour:
     source: {fileID: 0}
   - name: raymanflying
     clip: {fileID: 8300000, guid: 57e78901b3ec47540ab30b89009b35d2, type: 3}
-    volume: 0.2
+    volume: 1
     volumeVariance: 0
     pitch: 1
     pitchVariance: 0
-    loop: 0
+    loop: 1
     mixerGroup: {fileID: 24300002, guid: bbbcc8e27ebfe7d44972a00e8038334a, type: 2}
     source: {fileID: 0}
   - name: run1

@@ -93,6 +93,8 @@ public class PlayerMovement : MonoBehaviour
         if(jumps == 0){
             if (Input.GetButtonDown("Jump")||Input.GetKeyDown(KeyCode.JoystickButton0)){
                 Debug.Log("hi");
+                AudioManager.instance.Play("jump");
+                AudioManager.instance.Stop("raymanflying");
                 rb.AddForce(Vector3.up * jumpHeight, ForceMode.Impulse);
                 animBody.SetInteger("Jumps", 1);
                 animHead.SetInteger("Jumps", 1);
@@ -150,6 +152,8 @@ public class PlayerMovement : MonoBehaviour
         if(other.gameObject.tag == "Ground"||other.gameObject.tag == "Swamp"){
             //isGrounded = true;
             Debug.Log("bye");
+            AudioManager.instance.Stop("raymanflying");
+            AudioManager.instance.Play("jumpland");
             jumps = 0;
             rb.useGravity=true;
             Debug.Log("Gravity");
