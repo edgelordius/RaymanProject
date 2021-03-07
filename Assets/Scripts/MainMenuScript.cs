@@ -10,10 +10,12 @@ public class MainMenuScript : MonoBehaviour
     public GameObject mainMenuUI;
     public GameObject htpMenuUI;
     public GameObject creditsMenuUI;
+    public GameObject optionsMenuUI;
 
     public GameObject mainFirstButton;
     public GameObject htpFirstButton;
     public GameObject creditsFirstButton;
+    public GameObject optionsFirstButton;
 
     GameObject m_EventSystem;
 
@@ -30,6 +32,7 @@ public class MainMenuScript : MonoBehaviour
     }
 
     public void LoadHTP(){
+        optionsMenuUI.SetActive(true);
         htpMenuUI.SetActive(true);
         mainMenuUI.SetActive(false);
         m_EventSystem.GetComponent<UnityEngine.EventSystems.EventSystem>().SetSelectedGameObject(htpFirstButton);
@@ -38,12 +41,23 @@ public class MainMenuScript : MonoBehaviour
     public void LoadCredits(){
         creditsMenuUI.SetActive(true);
         mainMenuUI.SetActive(false);
+        optionsMenuUI.SetActive(false);
+        htpMenuUI.SetActive(false);
         m_EventSystem.GetComponent<UnityEngine.EventSystems.EventSystem>().SetSelectedGameObject(creditsFirstButton);
+    }
+
+    public void LoadOptions()
+    {
+        optionsMenuUI.SetActive(true);
+        htpMenuUI.SetActive(true);
+        mainMenuUI.SetActive(false);
+        m_EventSystem.GetComponent<UnityEngine.EventSystems.EventSystem>().SetSelectedGameObject(optionsFirstButton);
     }
 
     public void BackToMain(){
         htpMenuUI.SetActive(false);
         creditsMenuUI.SetActive(false);
+        optionsMenuUI.SetActive(false);
         mainMenuUI.SetActive(true);
         m_EventSystem.GetComponent<UnityEngine.EventSystems.EventSystem>().SetSelectedGameObject(mainFirstButton);
     }
