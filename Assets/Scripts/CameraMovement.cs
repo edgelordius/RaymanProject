@@ -5,8 +5,8 @@ using UnityEngine;
 public class CameraMovement : MonoBehaviour
 {
 
-    float horizontalSpeed = 5.0f;
-    float verticalSpeed = 5.0f;
+    public float horizontalSpeed = 5.0f;
+    public float verticalSpeed = 5.0f;
     float yaw = 0.0f;
     float pitch = 0.0f;
 

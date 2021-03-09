@@ -7,6 +7,8 @@ public class EnemySpawner : MonoBehaviour {
 	public GameObject[] enemiesWave1, enemiesWave2, enemiesWave3;
 	private GameObject spawnPoint;
 	public int waveCounter = 1;
+	private GameObject[] griskinSpawns;
+	public GameObject[] griskinWave1, griskinWave2, griskinWave3;
 
 	public bool waveInProgress = false;
 
@@ -14,6 +16,7 @@ public class EnemySpawner : MonoBehaviour {
 	void Start () {
 		//find the spawn point in the scene.
 		spawnPoint = GameObject.Find("_EnemySpawnPoint");
+		griskinSpawns = GameObject.FindGameObjectsWithTag("GriskinSpawner");
 	}
 	
 	// Update is called once per frame
@@ -23,6 +26,7 @@ public class EnemySpawner : MonoBehaviour {
 		if (Input.GetKeyDown(KeyCode.Space) && !waveInProgress)
 		{
 			StartCoroutine(StartSpawning(2));
+			StartCoroutine(SpawnGriskin(2));
 			waveInProgress = true;
 		}
 	}
@@ -84,6 +88,60 @@ public class EnemySpawner : MonoBehaviour {
 				{
 					//if there is more than 1 left, then spawn the enemies at this location randomly, with a 2 second delay between each spawn.
 					Instantiate(enemiesWave3[Random.Range(0,10)], spawnPoint.transform.position, spawnPoint.transform.rotation);
+					yield return new WaitForSeconds(2);
+				}
+			}
+		}
+	}
+	
+	IEnumerator SpawnGriskin (float delay){
+		if (waveCounter == 1)
+		{
+			for (int i = 0; i < griskinWave1.Length; i++)
+			{
+				//if the length of the wave has 1 left, wait 5 seconds then add 1 to the wave counter.
+				if (i == (griskinWave1.Length -1))
+				{
+					yield return new WaitForSeconds(5);
+				}
+				else
+				{
+					//if there is more than 1 left, then spawn the enemies at this location randomly, with a 2 second delay between each spawn.
+					Instantiate(griskinWave1[Random.Range(0, 2)], griskinSpawns[Random.Range(0,4)].transform.position, griskinSpawns[Random.Range(0,4)].transform.rotation);
+					yield return new WaitForSeconds(2);
+				}
+			}
+		}
+		if(waveCounter == 2)
+		{
+			for (int i = 0; i < griskinWave2.Length; i++)
+			{
+				if (i == (griskinWave2.Length -1))
+				{
+					//if the length of the wave has 1 left, wait 5 seconds then add 1 to the wave counter.
+					yield return new WaitForSeconds(5);
+				}
+				else
+				{
+					//if there is more than 1 left, then spawn the enemies at this location randomly, with a 2 second delay between each spawn.
+					Instantiate(griskinWave2[Random.Range(0,5)], griskinSpawns[Random.Range(0,4)].transform.position, griskinSpawns[Random.Range(0,4)].transform.rotation);
+					yield return new WaitForSeconds(2);
+				}
+			}
+		}
+		if(waveCounter == 3)
+		{
+			for (int i = 0; i < griskinWave3.Length; i++)
+			{
+				if (i == (griskinWave3.Length -1))
+				{
+					//if the length of the wave has 1 left, stop the waves by setting it to false..
+					waveInProgress = false;
+				}
+				else
+				{
+					//if there is more than 1 left, then spawn the enemies at this location randomly, with a 2 second delay between each spawn.
+					Instantiate(griskinWave3[Random.Range(0,10)], griskinSpawns[Random.Range(0,4)].transform.position, griskinSpawns[Random.Range(0,4)].transform.rotation);
 					yield return new WaitForSeconds(2);
 				}
 			}

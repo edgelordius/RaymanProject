@@ -6,6 +6,7 @@ public class CutsceneCamController : MonoBehaviour
 {
 
     GameObject playerCamera;
+    GameObject tempHead;
     Animator camAnim;
 
     GameObject playerVar;
@@ -14,6 +15,7 @@ public class CutsceneCamController : MonoBehaviour
     void Start()
     {
         camAnim = GameObject.Find("CutsceneCam").GetComponent<Animator>();
+        tempHead = GameObject.Find("TempHead");
         playerVar = GameObject.Find("Player");
         playerVar.GetComponent<PlayerMovement>().enabled = false;
         playerVar.GetComponent<CameraMovement>().enabled = false;
@@ -28,6 +30,7 @@ public class CutsceneCamController : MonoBehaviour
             playerVar.GetComponent<PlayerMovement>().enabled = true;
             playerVar.GetComponent<CameraMovement>().enabled = true;
             playerCamera.SetActive(true);
+            tempHead.SetActive(false);
             GameObject cutCam = GameObject.Find("CutsceneCam");
             cutCam.SetActive(false);
         }
