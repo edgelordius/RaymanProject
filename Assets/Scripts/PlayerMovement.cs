@@ -74,6 +74,8 @@ public class PlayerMovement : MonoBehaviour
         forwardBackward *= Time.deltaTime;
         leftRight *= Time.deltaTime;
         transform.Translate(leftRight, 0, forwardBackward);
+
+        Debug.Log(jumps.ToString());
         
         if (Input.GetAxis("Vertical")==0 && Input.GetAxis("Horizontal")==0){
             animBody.SetFloat("Speed", 0);
@@ -92,7 +94,7 @@ public class PlayerMovement : MonoBehaviour
         
         if(jumps == 0){
             if (Input.GetButtonDown("Jump")||Input.GetKeyDown(KeyCode.JoystickButton0)){
-                Debug.Log("hi");
+                //Debug.Log("hi");
                 AudioManager.instance.Play("jump");
                 AudioManager.instance.Stop("raymanflying");
                 rb.AddForce(Vector3.up * jumpHeight, ForceMode.Impulse);
@@ -169,7 +171,9 @@ public class PlayerMovement : MonoBehaviour
     void OnCollisionExit(Collision other){
         if(other.gameObject.tag == "Ground"||other.gameObject.tag == "Swamp"){
             //isGrounded = false;
-            jumps++;
+            if(jumps == 0){
+                jumps = 1;
+            }
         }
     }
 

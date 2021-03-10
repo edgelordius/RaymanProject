@@ -9,6 +9,8 @@ public class CutsceneCamController : MonoBehaviour
     GameObject tempHead;
     Animator camAnim;
 
+    GameObject tempBox;
+
     GameObject playerVar;
 
     // Start is called before the first frame update
@@ -17,6 +19,7 @@ public class CutsceneCamController : MonoBehaviour
         camAnim = GameObject.Find("CutsceneCam").GetComponent<Animator>();
         tempHead = GameObject.Find("TempHead");
         playerVar = GameObject.Find("Player");
+        tempBox = GameObject.Find("TempBox");
         playerVar.GetComponent<PlayerMovement>().enabled = false;
         playerVar.GetComponent<CameraMovement>().enabled = false;
         playerCamera = GameObject.Find("Player/Main Camera");
@@ -31,6 +34,7 @@ public class CutsceneCamController : MonoBehaviour
             playerVar.GetComponent<CameraMovement>().enabled = true;
             playerCamera.SetActive(true);
             tempHead.SetActive(false);
+            tempBox.SetActive(false);
             GameObject cutCam = GameObject.Find("CutsceneCam");
             cutCam.SetActive(false);
         }

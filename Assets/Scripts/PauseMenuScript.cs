@@ -27,9 +27,11 @@ public class PauseMenuScript : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.JoystickButton7)) {
             if (IsPaused){
                 Resume();
+                Debug.Log("Resuming...");
             }
             else {
                 Pause();
+                Debug.Log("Pausing...");
             }
         }
     }

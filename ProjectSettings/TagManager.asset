@@ -10,6 +10,7 @@ TagManager:
   - BasicEnemy
   - GriskinSpawner
   - FlyingEnemy
+  - InvisibleBox
   layers:
   - Default
   - TransparentFX
@@ -22,7 +23,7 @@ TagManager:
   - Post Processing
   - InvisibleBoxesForGaps
   - PlayerHead
-  - 
+  - Ground
   - 
   - 
   - 
